@@ -1,0 +1,177 @@
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    body {
+        background-color: #33CCFF;
+    }
+	h1 {
+		letter-spacing: 5px;
+	}
+	section {
+		height:auto;
+	}
+	.content {
+		padding:20px;
+	}	
+	#profile {
+		margin-left:20px;
+	}
+	#name h1{
+		text-align:center;
+		margin-left:-20px;
+		font-size:50px;
+		letter-spacing: 3px;	
+	}
+	#icons {
+		display:none;
+	}
+	#sub_icons {
+		display:inline;
+	}
+	#skills {
+		border-radius:120px;
+		margin-top:20px;
+		margin-left:40px;
+		height:200px;
+		width:200px;
+	}
+	#lang {
+		display:none;
+	}
+	#sub_lang {
+		display:block;
+		margin-left:-20px;
+	}
+	button {
+		margin-left:70px;
+		margin-top:10px;
+		background-color:lightgreen;
+	}
+	#email {
+		margin-top:20px;
+	}
+	#git{
+		height:35px; 
+		width:35px; 
+		border-radius:5px;
+		margin-top:-30px;
+	}
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 550px) {
+    body {
+        background-color: #33CCFF;
+    }
+	h1 {
+		letter-spacing: 5px;
+	}
+	section {
+		height:auto;
+	}
+	.content {
+		padding:40px;
+	}	
+	#profile {
+		margin-left:60px;
+	}
+	#name h1{
+		margin-left:-20px;
+		font-size:50px;
+		letter-spacing: 3px;	
+	}
+	#icons {
+		display:none;
+	}
+	#sub_icons {
+		display:inline;
+	}
+	#skills {
+		border-radius:120px;
+		margin-top:20px;
+		margin-left:80px;
+		height:200px;
+		width:200px;
+	}
+	#lang {
+		display:none;
+	}
+	#sub_lang {
+		display:block;
+		margin-left:-20px;
+	}
+	button {
+		margin-left:100px;
+		margin-top:10px;
+		background-color:lightgreen;
+	}
+	#email {
+		margin-top:20px;
+	}
+	#git{
+		height:35px; 
+		width:35px; 
+		border-radius:5px;
+		margin-top:-30px;
+	}
+}	
+	
+@media screen and (min-width: 550px) and (max-width: 1000px) {
+	body {
+        background-color: khaki;
+    }
+	section {
+		height:auto;
+	}
+	.content {
+		padding:30px;
+	}	
+	.tab_skills {
+		display:inline;
+	}
+	.desktop_skills {
+		display:none;
+	}
+	#profile {
+		margin-left:160px;
+	}
+	#name h1{
+		margin-left:50px;
+		font-size:50px;
+		letter-spacing: 3px;	
+	}
+	#icons {
+		display:none;
+	}
+	#sub_icons {
+		display:inline;
+	}
+	#skills {
+		position:relative;
+		border-radius:120px;
+		margin-top:20px;
+		margin-left:70px;
+		height:200px;
+		width:200px;
+	}
+	#lang {
+		display:none;
+	}
+	#sub_lang {
+		display:block;
+		margin-left:0px;
+	}
+	button {
+		margin-left:170px;
+		margin-top:10px;
+		background-color:lightgreen;
+	}
+	#email {
+		margin-top:20px;
+	}
+	#git{
+		height:35px; 
+		width:35px; 
+		border-radius:5px;
+		margin-top:-30px;
+	}
+}	
