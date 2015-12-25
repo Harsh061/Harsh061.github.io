@@ -1,4 +1,63 @@
 
+@media screen and (min-width: 150px) and (max-width: 320px) {
+    body {
+        background-color: #33CCFF;
+    }
+	h1 {
+		letter-spacing: 5px;
+	}
+	section {
+		height:auto;
+	}
+	.content {
+		padding:10px;
+	}	
+	#profile {
+		margin-left:10px;
+	}
+	#name h1{
+		text-align:center;
+		margin-left:0px;
+		font-size:30px;
+		letter-spacing: 3px;	
+	}
+	#icons {
+		display:none;
+	}
+	#sub_icons {
+		display:inline;
+	}
+	#skills {
+		border-radius:120px;
+		margin-top:20px;
+		margin-left:0px;
+		height:200px;
+		width:200px;
+	}
+	#lang {
+		display:none;
+	}
+	#sub_lang {
+		display:block;
+		margin-left:-20px;
+	}
+	button {
+		margin-left:30px;
+		margin-top:10px;
+		background-color:lightgreen;
+	}
+	#email {
+		margin-top:20px;
+	}
+	#git{
+		height:35px; 
+		width:35px; 
+		border-radius:5px;
+		margin-top:-30px;
+	}
+
+}
+
 @media screen and (min-width: 320px) and (max-width: 480px) {
     body {
         background-color: #33CCFF;
