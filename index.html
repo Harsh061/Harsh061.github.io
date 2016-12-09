@@ -1,117 +1,434 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>
-			Harshit Parakh | Portfolio
-		</title>
-		<link rel="icon" type="image/png" href="images/harsh.jpg">
-		<meta name="description" content="Portfolio of Harshit Parakh.">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-		<link rel="stylesheet" href="css/style.css" type="text/css">
-		<link rel="stylesheet" href="css/responsive.css" type="text/css">
-		<link rel="stylesheet" href="css/animate.css">
-		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
-	</head>
-	<body>
-	<header>
-	<div class="navbar navbar-inverse navbar-fixed-top">
-	  <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Menu</a>
-        </div>
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="html/skills.html">Skills</a></li>
-            <li><a href="html/project.html">Projects</a></li>
-			<li><a href="Resume.pdf">Curriculam Vitae</a></li>
-			<li><a href="html/contact.html">Contact</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
-	<br><br><br><br><br>
-	<div class="container bounce">
-	<div class="row">
-		<div class="col-md-1"></div>
-		<div class="col-md-3"></div>
-		<div class="col-md-6" id="profile">
-			<img src="images/harsh.PNG" alt="harshit" class="animated zoomIn" />
-		</div>
-		<div class="col-md-1"></div>    
-    </div>
-	<div class="row">
-		<div class="col-md-1"></div>
-		<div class="col-md-2"></div>
-		<div class="col-md-6" id="name">
-			<h1 class="animated zoomIn"> <b>Harshit Parakh</b> </h1>
-		</div>
-		<div class="col-md-2"></div>    
-    </div>
-	    
-	</div>
-	</header>
-	<br>
-	<section>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+    <title>Harshit Parakh</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+    
+    <script src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/smoothscroll.js"></script> 
+    <script src="assets/js/Chart.js"></script>
+
+  </head>
+
+  <body data-spy="scroll" data-offset="0" data-target="#nav">
+
+	<div id="section-topbar">
+		<div id="topbar-inner">
 			<div class="container">
-				<blockquote>
-					<p style="text-align: center;" class="quote animated flipInX"><strong>&#8220;Chase your Dreams until they become Reality.&#8221;</strong></p>
-				</blockquote>
-				<div class= "content">
-				<p class="animated pulse">
-					Hello. I am <b>Harshit Parakh</b> from Udaipur, Rajasthan. <br>
-					I am currently in 3rd year pursuing my graduates in Computer Science Engineering.
-					I am a full-time Enthusiastic Geek who is keenly interested in creating dynamic and beautiful web pages.
-					I have been in the field since my school days, and have been loving every minute of it.
-					I am a developer, leader and overall creative thinker. <br> 
-					I am also an Oracle Certified Associate [OCA]. 
+				<div class="row">
+					<div class="dropdown">
+						<ul id="nav" class="nav">
+							<li class="menu-item"><a class="smoothScroll" href="#about" title="About"><i class="icon-user"></i></a></li>
+							<li class="menu-item"><a class="smoothScroll" href="#resume" title="Resume"><i class="icon-file"></i></a></li>
+							<li class="menu-item"><a class="smoothScroll" href="#work" title="Works"><i class="icon-briefcase"></i></a></li>
+							<li class="menu-item"><a class="smoothScroll" href="#contact" title="Contact"><i class="icon-envelope"></i></a></li>
+						</ul><!--/ uL#nav -->
+					</div><!-- /.dropdown -->
+
+					<div class="clear"></div>
+				</div><!--/.row -->
+			</div><!--/.container -->
+
+			<div class="clear"></div>
+		</div><!--/ #topbar-inner -->
+	</div><!--/ #section-topbar -->
+	
+	<div id="headerwrap">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-12">
+					<img src="assets/img/profile.png" alt="Profile pic" style="height=150px; width:200px;" class="img-circle" />
+					<h1>Harshit Parakh</h1>
+					<h3>Web Developer | parakhharshit@gmail.com</h3>
+				</div><!--/.col-lg-12 -->
+			</div><!--/.row -->
+		</div><!--/.container -->
+	</div><!--/.#headerwrap -->
+	
+
+	<section id="about" name="about"></section>
+	<div id="intro">
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>ABOUT</h5>
+				</div>
+				<div class="col-lg-6">
+					<p>I am Harshit, someone who loves to "TURN IDEAS INTO REALITY". 
+					I am currently a final year student pursuing my graduates in Computer Science Engineering. I am a developer, leader and overall creative thinker. I am an Enthusiastic Geek who is keenly interested in creating dynamic and beautiful websites. 
+					I am also Oracle Certified Associate [OCA].</p>
+				</div>
+				<div class="col-lg-3">
+				<!--	<p><a href="#"><i class="icon-file"></i></a> <sm>DOWNLOAD PDF</sm></p>  -->
+				</div>
+				
+			</div><!--/.row -->
+		</div><!--/.container -->
+	</div><!--/ #intro -->
+
+
+	<section id="resume" name="resume"></section>
+	<!--EDUCATION DESCRIPTION -->
+	<div class="container desc">
+		<div class="row">
+
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>EDUCATION</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><t>Bachelor of Technology in Computer Science</t><br/>
+						Arya College of Engineering & I.T., Jaipur <br/>
+						<i>4 Years Course</i>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm></sm><br/>
+					<imp><sm>IN PROGRESS</sm></imp>
+					</p>
+				</div>
+	
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>Secondary and Senior Secondary Education</t><br/>
+						Alok Senior Secondary School, Udaipur <br/>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm></sm></p>
+				</div>
+	
+		</div><!--/.row -->
+		<br>
+		<hr>
+	</div><!--/.container -->
+	
+	
+	<!--WORK DESCRIPTION -->
+	<div class="container desc">
+		<div class="row">
+
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>WORK</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><t>Wordpress Developer Intern</t><br/>
+						F5Buddy, Indore <br/>
+					</p>
+					<p><more>I have completed my 2 months summer internship from F5Buddy, Indore. F5buddy is a website design and development company.  </more></p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>June 2016 - July 2016</sm></p>
+				</div>
+	
+				
+		</div><!--/.row -->
+		<br>
+		<hr>
+	</div><!--/.container -->
+
+
+	<!--AWARDS DESCRIPTION -->
+	<div class="container desc">
+		<div class="row">
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>Journey</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><t>Oracle Certified Associate [ OCA ]</t><br/>
+						Oracle <br/>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>May 2015</sm></p>
+				</div>
+	
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>Winner of Web Designing Competition</t><br/>
+						Openmoz club
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>2015</sm></p>
+				</div>
+
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>Selected amongst top 20 in IndiaHacks Competition.</t><br/>
+						Hackerearth
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>March 2016</sm></p>
+				</div>
+
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>Attended IndiaHacks Developer Conference 2016</t><br/>
+						At Vivanta by Taj, Bangalore.
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>March 2016</sm></p>
+				</div>
+
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>Attended TopCoder 2015 </t><br/>
+						At Manipal University, Jaipur.
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>2015</sm></p>
+				</div>
+
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>Attended TopCoder 2016 </t><br/>
+						At Hotel Clark's Amer, Jaipur.
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>July 2016</sm></p>
+				</div>
+		
+		</div><!--/.row -->
+		<br>
+	</div><!--/.container -->
+	
+	
+	<!--SKILLS DESCRIPTION -->
+	<div id="skillswrap">
+		<div class="container">
+			<div class="row">
+					<div class="col-lg-2 col-lg-offset-1">
+						<h5>SKILLS</h5>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="PHP" height="130" width="130"></canvas>
+						<p>PHP</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 70,
+										color:"#1abc9c"
+									},
+									{
+										value : 30,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("PHP").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="mysql" height="130" width="130"></canvas>
+						<p>MySql</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 70,
+										color:"#1abc9c"
+									},
+									{
+										value : 30,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("mysql").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="wordpress" height="130" width="130"></canvas>
+						<p>Wordpress</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 60,
+										color:"#1abc9c"
+									},
+									{
+										value : 40,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("wordpress").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					
+					<div class="col-lg-3 col-lg-offset-3 centered">
+						<canvas id="html" height="130" width="130"></canvas>
+						<p>HTML/CSS</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 75,
+										color:"#1abc9c"
+									},
+									{
+										value : 25,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("html").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="C" height="130" width="130"></canvas>
+						<p>C</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 85,
+										color:"#1abc9c"
+									},
+									{
+										value : 15,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("C").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="cpp" height="130" width="130"></canvas>
+						<p>C++</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 60,
+										color:"#1abc9c"
+									},
+									{
+										value : 40,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("cpp").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+
+			</div><!--/.row -->
+			<br>
+		</div><!--/.container -->
+	</div><!--/ #skillswrap -->
+
+
+
+	<section id="work" name="work"></section>
+	<!--PORTFOLIO DESCRIPTION -->
+	<div class="container desc">
+		<div class="row">
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>PORTFOLIO</h5>
+				</div>
+				<div class="col-lg-6">
+					<p class="work_img"><img class="img-responsive" src="assets/img/dentons.jpg" alt="" style="border:1px solid black"></p>
+				</div>
+				<div class="col-lg-3">
+					<p><a href="http://www.dentonsdigitalmarketing.com/">Dentons Digital</a></p>
+				<p><more>Dentons Digital is a full service marketing agency based in Westbury. <br/>
+					My role in this project was to convert HTML website into Wordpress Website.<br/><br/>
+					<sm><i class="icon-tag"></i> Wordpress Developer</sm></more> 
 				</p>
 				</div>
-			</div>
-	</section>
-	<br><br>
-	<footer style="background-color:black;">
-		<div class="footer">
-			<div class="container">
-				<div class="row"> 
-					<div class="col-md-3"></div>
-					<div class="col-md-5">
-						<p style="color:#fff; margin-top:30px;">&copy; All Rights Reserved. Design | by <a href="https://in.linkedin.com/pub/harshit-parikh/95/540/4a6">Harshit Parakh</a> </p>		     
-					</div>
-					<div class="col-md-4"  id="icons">	
-						<ul class="nav navbar-nav">
-							<li> <a class="icon" href="https://www.facebook.com/harshit.parakh.3" target="blank"><img src="images/fb.png" title="facebook" /></a></li>
-							<li> <a class="icon" href="https://twitter.com/HarshitParakh" target="blank"><img src="images/twt.png" title="twitter" /></a></li>
-							<li> <a class="icon" href="https://in.linkedin.com/pub/harshit-parikh/95/540/4a6" target="blank"><img src="images/in.png" title="linkedin" /></a></li>
-							<li> <a class="icon" href="https://github.com/Harsh061" target="blank"><img src="images/github.PNG" title="github" id="git" /></a></li>
-						</ul>
-					</div>
-					<div class="row" id="sub_icons">
-						<div class="col-xs-3">
-							<a class="icon" href="https://www.facebook.com/harshit.parakh.3" target="blank"><img src="images/fb.png" title="facebook" /></a> 
-						</div>
-						<div class="col-xs-3">
-							<a class="icon" href="https://twitter.com/HarshitParakh" target="blank"><img src="images/twt.png" title="twitter" /></a>
-						</div>
-						<div class="col-xs-3">
-							<a class="icon" href="https://in.linkedin.com/pub/harshit-parikh/95/540/4a6" target="blank"><img src="images/in.png" title="linkedin" /></a>
-						</div>
-						<div class="col-xs-3">
-							<a class="icon" href="https://github.com/Harsh061" target="blank"><img src="images/github.PNG" title="github" id="git" /></a>
-						</div>
-					</div>
+				
+				<div class="col-lg-6 col-lg-offset-3">
+					<p class="work_img"><img class="img-responsive" src="assets/img/royal_textile.png" alt="" style="border:1px solid black"></p>
 				</div>
-			</div>
-		</div>
-	</footer>
+				<div class="col-lg-3">
+						<p>Royal Textile</p>
+					<p><more>It is an E-Commerce website that helps customers to buy Mattress Online.<br/><br/>
+						<sm><i class="icon-tag"></i> Team Lead and Backend developer </sm></more> 
+					</p>
+				</div>
+				
+				<div class="col-lg-6 col-lg-offset-3">
+					<p class="work_img"><img class="img-responsive" src="assets/img/classicware.png" alt="" style="border:1px solid black"></p>
+				</div>
+				<div class="col-lg-3">
+						<p><a href="http://classicware.netai.net/sandbox/ecommerce/">Classicware</a></p>
+					<p><more>It is an E-Commerce website that helps customers to buy top traditional items from local markets.<br/><br/>
+						<sm><i class="icon-tag"></i> Backend Developer</sm></more> 
+					</p>
+				</div>
+
+				<div class="col-lg-6 col-lg-offset-3">
+					<p class="work_img"><img class="img-responsive" src="assets/img/eduignitor.png" alt="" style="border:1px solid black"></p>
+				</div>
+				<div class="col-lg-3">
+						<p>Eduignitor</p>
+					<p><more>It is an educational platform similar to quora which allows juniors of our college to clear all their doubts.<br/><br/>
+						<sm><i class="icon-tag"></i>Team Lead, Designer and Backend Developer</sm></more> 
+					</p>
+				</div>
+
+		
+		</div><!--/.row -->
+		<br>
+		<br>
+	</div><!--/.container -->
 	
-	<script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-	</body>
+
+
+	<section id="contact" name="contact"></section>
+	<!--FOOTER DESCRIPTION -->
+	<div id="footwrap">
+		<div class="container">
+			<div class="row">
+			
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>CONTACT</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><t>Email</t><br/>
+						parakhharshit@gmail.com <br/>
+					</p>
+					<p><t>Adress</t><br/>
+						11, Shreenath Marg <br/>
+						Udaipur 313001 <br/>
+						Rajasthan, India. <br/>
+					</p>
+					<p><t>Phone</t><br/>
+						+91 9461074061 <br/>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>SOCIAL LINKS</sm></p>
+					<p>
+						<a href="#"><i class="icon-linkedin"></i></a>
+						<a href="#"><i class="icon-facebook"></i></a>
+					</p>
+				</div>
+			</div><!--/.row -->
+		</div><!--/.container -->
+	</div><!--/ #footer -->
+	
+	<div id="c">
+		<div class="container">
+			<p>Created by <a href="#">Harshit</a></p>
+		
+		</div>
+	</div>
+	
+    <script src="assets/js/bootstrap.js"></script>
+  </body>
 </html>
